@@ -1,0 +1,8 @@
+name: UCR Global
+type: module
+description: Customize global settings and blocks
+package: Custom
+core: 8.x
+dependencies:
+  - drupal:block
+configure: ucrglobal.settings
