@@ -3,5 +3,3 @@ ucrglobal.settings:
   defaults:
     _form: '\Drupal\ucr_global\Form\UcrGlobalSettingsForm'
     _title: 'UCR Global Settings'
-  requirements:
-    _permission: 'administer ucr_global'
