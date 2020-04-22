@@ -1,0 +1,6 @@
+ucr_global.admin:
+  title: 'UCR Global settings'
+  description: 'Manage UC Riverside global settings.'
+  parent: system.admin_config_system
+  route_name: ucrglobal.settings
+  weight: 100

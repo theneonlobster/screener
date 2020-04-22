@@ -22,6 +22,11 @@ class UcrGlobalOrganizationNameBlock extends BlockBase {
     $organization_name = $config->get('organization_name');
     $organization_url = $config->get('organization_url');
 
+    $build = [];
+    $build['#theme'] = 'ucr_global_organization_name_block';
+    $build['#org_name'] = $organization_name;
+    $build['#org_url'] = $organization_url;
+
     return $build;
   }
 
